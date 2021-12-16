@@ -65,9 +65,9 @@ pipenv run python -m pytest -v tests/test_instant_quote.py -s
 pipenv run python -m pytest -v tests/test_instant_quote.py -s --html=reports/test_report.html
 ```
 
-## Project Setup after clone the repository
+## Project Setup (Cloning the repository)
 
-1. Clone this repository.
+1. Clone this repository:
 `git clone https://github.com/nsiasnhial/TestAutomationPython.git`
 2. Run `cd TestAutomationPython ` to enter the project.
 3. Run `pipenv install` to install the dependencies.
@@ -78,7 +78,7 @@ pipenv run python -m pytest -v tests/test_instant_quote.py -s --html=reports/tes
 ```
 pipenv run python -m pytest -v tests/test_instant_quote.py -s
 ```
-2. Run a specific test is a given browser and report:
+2. Run a specific test  and generate report:
 ```
 pipenv run python -m pytest -v tests/test_instant_quote.py -s --html=reports/test_report.html
 ```
@@ -91,7 +91,7 @@ pipenv run python -m pytest -v tests/test_instant_quote.py -s --html=reports/tes
     a. Country: United States
 
     b. From/To dates: one day future date
-    
+
     c. Car/vehicle type: Car
 
 
