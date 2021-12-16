@@ -2,7 +2,7 @@
 
 ## Python Setup
 
-Test can be set up in the following OS: Windows, macOS, Linux.
+Test can be set up on macOS.
 
 Python Version: Python 3.8 or higher.
 Download the latest Python version from [Python.org](https://www.python.org/downloads/).
@@ -60,12 +60,12 @@ Run `pipenv run python -m pytest` to verify that the framework can run tests.
 ```
 pipenv run python -m pytest -v tests/test_instant_quote.py -s
 ```
-2. Run a specific test  and report:
+2. Run a specific test  and generate report:
 ```
 pipenv run python -m pytest -v tests/test_instant_quote.py -s --html=reports/test_report.html
 ```
 
-## Project Setup
+## Project Setup after clone the repository
 
 1. Clone this repository.
 2. Run `cd visx-ui-test` to enter the project.
