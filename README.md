@@ -68,11 +68,10 @@ pipenv run python -m pytest -v tests/test_instant_quote.py -s --html=reports/tes
 ## Project Setup after clone the repository
 
 1. Clone this repository.
-2. Run `cd visx-ui-test` to enter the project.
+`git clone https://github.com/nsiasnhial/TestAutomationPython.git`
+2. Run `cd TestAutomationPython ` to enter the project.
 3. Run `pipenv install` to install the dependencies.
-4. (Please do not run this command as this will run ALL the tests and they need fixing)
 
-Run `pipenv run python -m pytest` to verify that the framework can run tests.
 
 ### Running Test
 1. Run a specific test:
@@ -88,8 +87,11 @@ pipenv run python -m pytest -v tests/test_instant_quote.py -s --html=reports/tes
 
 ## Test Details and Assumptions
 1. Enter the following data to get the instant quote:
+
     a. Country: United States
+
     b. From/To dates: one day future date
+    
     c. Car/vehicle type: Car
 
 
